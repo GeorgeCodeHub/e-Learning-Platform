@@ -1,0 +1,78 @@
+.App {
+	display: flex;
+	flex: 1;
+}
+
+/* Login,Register,ForgetPassword */
+
+.login-card {
+	position: absolute !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 10px;
+}
+
+.login-form-forgot {
+	float: right;
+}
+.ant-col-rtl .login-form-forgot {
+	float: left;
+}
+.login-form-button {
+	width: 100%;
+	font-size: 15px;
+}
+
+.collection-create-form_last-form-item {
+	margin-bottom: 0;
+}
+
+/* Main Page */
+
+.trigger {
+	font-size: 18px;
+	line-height: 64px;
+	padding: 0 24px;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.trigger:hover {
+	color: #1890ff;
+}
+
+.logo {
+	height: 32px;
+	background: #1890ff;
+	color: #fff;
+	margin: 16px;
+	text-align: center;
+}
+
+.site-layout .site-layout-header {
+	background: #fff;
+
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.site-layout .site-layout-content {
+	background: #f0f2f5;
+	overflow-y: scroll;
+}
+
+.site-layout .site-layout-content-login {
+	background: #f0f2f5;
+	flex: 1;
+}
+
+.site-layout .site-layout-background {
+	margin: 24px auto 24px auto;
+	background: #fff;
+	padding: 24px;
+	max-width: 973px;
+}

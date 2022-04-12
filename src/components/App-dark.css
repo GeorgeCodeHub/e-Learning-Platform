@@ -1,0 +1,24 @@
+.site-layout .site-layout-header-dark {
+	background: #1f1f1f;
+
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.site-layout .site-layout-content-dark {
+	background: #000000;
+	overflow-y: scroll;
+}
+
+.site-layout .site-layout-content-login-dark {
+	flex: 1;
+}
+
+.site-layout .site-layout-background-dark {
+	margin: 24px auto 24px auto;
+	background: #141414;
+	padding: 24px;
+	max-width: 973px;
+}
